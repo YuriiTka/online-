@@ -13,9 +13,8 @@
       f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NQG6CBLZ');
   </script>
-  <!-- End Google Tag Manager -->
 
-  <!-- Google Ads Global Site Tag -->
+  <!-- Google Ads -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17897174971"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -24,7 +23,7 @@
     gtag('config', 'AW-17897174971');
   </script>
 
-  <!-- Google Analytics 4 -->
+  <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J1H99T1Y6G"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -81,6 +80,38 @@
       background-color: #0056b3;
     }
 
+    /* 🔹 Gallery section */
+    .gallery {
+      max-width: 1100px;
+      margin: 80px auto;
+      padding: 0 20px;
+    }
+
+    .gallery h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #222;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+      transition: transform 0.25s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.04);
+    }
+
     footer {
       background-color: #f5f5f5;
       color: #666;
@@ -93,7 +124,6 @@
 
 <body>
 
-  <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQG6CBLZ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -111,6 +141,20 @@
       Start Chatting Now
     </a>
   </div>
+
+  <!-- 🌟 Elegant women gallery -->
+  <section class="gallery">
+    <h2>Meet Elegant Women From Around the World</h2>
+
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1520975922284-9a68c2f38c7e?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=600&q=80">
+    </div>
+  </section>
 
   <footer>
     © 2026 Global Connections. All rights reserved.
