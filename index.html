@@ -33,91 +33,98 @@
   </script>
 
   <meta charset="UTF-8">
-  <title>Global Connections – Meet & Chat</title>
+  <title>Global Connections – Private Chat Experience</title>
 
   <style>
     body {
       margin: 0;
       padding: 0;
       font-family: "Segoe UI", Arial, sans-serif;
-      background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
-      color: #333;
+      background: radial-gradient(circle at top, #1b1f27, #0b0e14);
+      color: #e6e6e6;
       text-align: center;
     }
 
     .hero {
-      background-image: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1400&q=80');
+      background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.85)),
+        url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1600&q=80');
       background-size: cover;
       background-position: center;
-      padding: 130px 20px;
-      color: white;
-      text-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      padding: 150px 20px;
     }
 
     h1 {
-      font-size: 44px;
-      margin-bottom: 15px;
+      font-size: 46px;
+      margin-bottom: 18px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
     }
 
     p.subtitle {
       font-size: 22px;
-      margin-bottom: 45px;
+      margin-bottom: 55px;
+      color: #cfcfcf;
     }
 
     .cta-button {
       display: inline-block;
-      padding: 18px 38px;
+      padding: 18px 42px;
       font-size: 18px;
       font-weight: 600;
-      color: #fff;
-      background-color: #007bff;
-      border-radius: 6px;
+      color: #111;
+      background: linear-gradient(135deg, #d4af37, #f2d675);
+      border-radius: 40px;
       text-decoration: none;
-      transition: background-color 0.2s ease;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
     .cta-button:hover {
-      background-color: #0056b3;
+      transform: translateY(-2px);
+      box-shadow: 0 16px 38px rgba(0,0,0,0.55);
     }
 
     /* Gallery */
     .gallery {
-      max-width: 1100px;
-      margin: 90px auto;
+      max-width: 1150px;
+      margin: 100px auto;
       padding: 0 20px;
     }
 
     .gallery h2 {
       font-size: 34px;
-      margin-bottom: 45px;
-      color: #222;
+      margin-bottom: 50px;
+      font-weight: 500;
+      color: #f0f0f0;
     }
 
     .gallery-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 26px;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 30px;
     }
 
     .gallery-grid img {
       width: 100%;
-      height: 330px;
+      height: 340px;
       object-fit: cover;
-      border-radius: 14px;
-      box-shadow: 0 12px 28px rgba(0,0,0,0.14);
-      transition: transform 0.25s ease;
+      border-radius: 18px;
+      box-shadow: 0 18px 40px rgba(0,0,0,0.55);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
 
     .gallery-grid img:hover {
-      transform: scale(1.04);
+      transform: scale(1.05);
+      box-shadow: 0 22px 55px rgba(0,0,0,0.75);
     }
 
     footer {
-      background-color: #f5f5f5;
-      color: #666;
+      background-color: #07090d;
+      color: #8f8f8f;
       font-size: 14px;
-      padding: 25px;
-      margin-top: 40px;
+      padding: 30px;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -132,21 +139,21 @@
 
   <!-- HERO -->
   <div class="hero">
-    <h1>Enjoy Good Time With Elegant Women</h1>
-    <p class="subtitle">Real people. Real conversations. One click away.</p>
+    <h1>Enjoy Meaningful Conversations</h1>
+    <p class="subtitle">Private chats, refined atmosphere, genuine connection</p>
 
     <a
       href="https://j4l.com/?utm_source=agency&utm_medium=affiliate&utm_campaign=2851"
       class="cta-button"
       onclick="gtag('event','conversion',{'send_to':'AW-17897174971/Sn2iCJ2QpusbELvvhNZC'});"
     >
-      Start Chatting Now
+      Enter Private Chat
     </a>
   </div>
 
   <!-- GALLERY -->
   <section class="gallery">
-    <h2>Enjoy Good Time With Elegant Women</h2>
+    <h2>Where Style Meets Conversation</h2>
 
     <div class="gallery-grid">
       <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80">
